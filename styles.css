@@ -1,3 +1,11 @@
+/* Colors for branding: (From Coolors.co)
+        #fefae0 Cornsilk
+        #283618 Pakistan Green
+        #606C38 Dark Moss Green
+        #DDA15E Earth Yellow
+        #BC6C25 Tiger's Eye
+*/
+
 /* Global styling */
 
 * {
@@ -6,6 +14,23 @@
 
 
 body {
-    background-image: url("recipes/darkkitchen.png") repeat;
-    min-height: 100%;
+    background-color: #283618;
+    color: #fefae0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fefae0;
+}
+
+a:visited {
+    color: #DDA15E;
+}
+
+.recipe {
+    width: 25rem;
+    border-radius: 5%;
 }
