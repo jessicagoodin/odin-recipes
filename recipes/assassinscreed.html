@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assassin's Creed: The Culinary Codex</title>
+    <!-- Loading an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <a class="active" href="assassinscreed.html">Assassin's Creed</a>
+        <a href="elderscrolls.html">Elder Scrolls</a>
+        <a href="fallout.html">Fallout</a>
+        <a href="halo.html">Halo</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
 
     <h2>Assassin's Creed: The Culinary Codex</h2>
 
     <img src="/recipe-images/assassinscreed.jpg" alt="Assassin's Creed" class="recipe-page">
 
-<!-- Each of these links will scroll user down the page rather than lead to another page -->
+    <p>Choose a recipe:</p>
 
+    <div>
+        <ul>
+            <li><a href="#rooks">Rooks' Bread Pudding</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
 
-        <h2><a href="">Rooks' Bread Pudding (Bread Pudding with Dried Fruit)</a></h2>
+        <h2 id="rooks">Rooks' Bread Pudding (Bread Pudding with Dried Fruit)</h2>
 
 <img src="/recipe-images/breadpudding.jpg" alt="Overhead view of a cast iron skillet with bread pudding.">
 
@@ -61,5 +81,6 @@
         <p><a href=>The Best Pozole Verde for a Cold Winters' Day</a></p>
         <p><a href=>The Best Pozole Verde for a Cold Winters' Day</a></p>
     
+    <script src="/app.js"></script>
 </body>
 </html>

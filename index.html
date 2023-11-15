@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
+    <!-- Loading an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Geeks Can Cook!</title>
 </head>
 <body>
+
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="recipes/assassinscreed.html">Assassin's Creed</a>
+        <a href="recipes/elderscrolls.html">Elder Scrolls</a>
+        <a href="recipes/fallout.html">Fallout</a>
+        <a href="recipes/halo.html">Halo</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+
     <h1>Geeks Can Cook!</h1>
     <p>How can one resist actually partaking in meals from one's favorite video games?</p>
     <span>As borrowed from the associated games' cookbooks.</span>
@@ -26,5 +40,6 @@
     <a href="/recipes/halo.html"><img src="/recipe-images/halo.jpg" alt="Halo" class="recipe"></a>
     <p><a href="halo.html">Halo: The Official Cookbook</a></p>
 
+    <script src="app.js"></script>
 </body>
 </html>
